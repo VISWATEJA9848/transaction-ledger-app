@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+.app {
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.dashboard {
+    max-width: 700px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+header {
+    background: #1f2937;
+    color: white;
+    padding: 24px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    padding: 30px;
+}
+
+main h2 {
+    margin-top: 0;
+    color: #1f2937;
+}
+
+.balance-card {
+    background: #f8fafc;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 20px 0;
+}
+
+.balance-card p {
+    margin: 0 0 8px;
+    color: #6b7280;
+}
+
+.balance-card h3 {
+    margin: 0;
+    font-size: 36px;
+    color: #111827;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #e5e7eb;
+    margin: 30px 0;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 16px;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #374151;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #2563eb;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.transaction {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 16px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.transaction span {
+    color: #374151;
+}
